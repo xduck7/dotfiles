@@ -1,0 +1,23 @@
+[mgr]
+cwd = { fg = "#d4a373" }
+
+marker_cut = { fg = "#a78a7f", bg = "#a78a7f" }
+
+count_copied = { fg = "#333333", bg = "#a5a58d" }
+count_cut = { fg = "#333333", bg = "#b7b7a4" }
+count_selected = { fg = "#333333", bg = "#e6ccb2" }
+
+[mode]
+normal_main = { fg = "#333333", bg = "#ddb892" }
+normal_alt = { fg = "#333333", bg = "#b7b7a4" }
+
+select_main = { fg = "#333333", bg = "#a5a58d" }
+select_alt = { fg = "#333333", bg = "#b7b7a4" }
+
+unset_main = { fg = "#333333", bg = "#e6ccb2" }
+unset_alt = { fg = "#333333", bg = "#b7b7a4" }
+
+[filetype]
+rules = [
+    { name = "*/", fg = "#cb997e" }
+]
