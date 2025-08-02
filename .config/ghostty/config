@@ -1,9 +1,7 @@
 auto-update = download
 
-theme = yorumi-abyss 
+theme = light:yorumi-mist, dark:yorumi-abyss
 font-family = "Hack Nerd Font"
-
-background-blur-radius = 60
 
 macos-titlebar-style = hidden
 macos-titlebar-proxy-icon = hidden
@@ -14,14 +12,24 @@ window-padding-y = 20
 window-decoration = false
 window-save-state = always
 
-unfocused-split-fill=888888
+unfocused-split-fill=050012
 
-keybind = cmd+opt+a=new_split:right
-keybind = cmd+opt+s=new_split:down
+keybind = cmd+opt+l=new_split:right
+keybind = cmd+opt+j=new_split:down
 keybind = cmd+opt+z=close_surface
 
+keybind = cmd+shift+h=goto_split:left
+keybind = cmd+shift+j=goto_split:bottom
+keybind = cmd+shift+k=goto_split:top
+keybind = cmd+shift+l=goto_split:right
 
-background-opacity = 0.9
+keybind = cmd+shift+left=resize_split:left,10
+keybind = cmd+shift+down=resize_split:down,10
+keybind = cmd+shift+up=resize_split:up,10
+keybind = cmd+shift+right=resize_split:right,10
+
+
+background-opacity = 0.75
 background-blur-radius = 80
 
 quick-terminal-position = top
@@ -29,5 +37,4 @@ quick-terminal-screen = mouse
 quick-terminal-animation-duration = 0.3
 
 shell-integration = zsh
-
 macos-window-shadow = true
