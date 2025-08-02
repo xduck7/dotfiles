@@ -1,0 +1,84 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "os",
+          "style": "plain",
+          "foreground": "#FF9E64",
+          "properties": {
+            "prefix": "🖥️ "
+          }
+        },
+        {
+          "type": "shell",
+          "style": "plain",
+          "foreground": "#7FD5EA",
+          "properties": {
+            "prefix": "🐚 "
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#A8FF60",
+          "properties": {
+            "prefix": "📂 ",
+            "folder_separator_icon": " ➤ ",
+            "home_icon": "🏠"
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#FF6BFF",
+          "properties": {
+            "prefix": "🌿 ",
+            "display_stash_count": true,
+            "display_status": true,
+            "branch_icon": "🌱",
+            "stash_icon": "📦",
+            "ahead_icon": "🚀↑",
+            "behind_icon": "↓"
+          }
+        },
+        {
+          "type": "node",
+          "style": "plain",
+          "foreground": "#6BFF6B",
+          "properties": {
+            "prefix": "⬢ "
+          }
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#FFD700",
+          "properties": {
+            "prefix": "🕒 ",
+            "time_format": "15:04"
+          }
+        }
+      ]
+    },
+    {
+      "type": "rprompt",
+      "segments": [
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#FF5555",
+          "properties": {
+            "prefix": "❌ ",
+            "display_exit_code": true
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": true,
+  "console_title": true
+}
