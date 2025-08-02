@@ -1,6 +1,6 @@
 auto-update = download
 
-theme = light:yorumi-mist, dark:yorumi-abyss
+theme = JetBrains_Fleet
 font-family = "Hack Nerd Font"
 
 macos-titlebar-style = hidden
